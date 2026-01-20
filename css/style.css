@@ -1,0 +1,24 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.type-btn.active {
+    background: linear-gradient(to right, rgb(249, 115, 22), rgb(239, 68, 68));
+    color: white;
+    box-shadow: 0 4px 14px rgba(249, 115, 22, 0.3);
+}
+
+#settings-modal.show {
+    display: flex;
+}
+
+#history-panel.open {
+    transform: translateX(0);
+}
+
+.exercise-card {
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.1), rgba(239, 68, 68, 0.1));
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+}

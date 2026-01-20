@@ -1,0 +1,15 @@
+{
+    "name": "ai-fitness-coach",
+    "routes": [
+        {
+            "path": "/api/fitness-storage",
+            "function": "fitness-storage"
+        }
+    ],
+    "functions": [
+        {
+            "name": "fitness-storage",
+            "entry": "edge-functions/fitness-storage.js"
+        }
+    ]
+}
